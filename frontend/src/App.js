@@ -11,7 +11,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`/weather/${cityName}`)
+    fetch(`https://chandru-weather.onrender.com/weather/${cityName}`)
       .then((res) => {
         if (res.ok) {
           return res.json();
