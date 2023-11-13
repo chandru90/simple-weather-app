@@ -37,8 +37,8 @@
   }
 }
 .bg-container {
-  background-image: url('./image1.png');
-  background-size: auto;
+  background-image: url('./image3.jpg');
+  background-size: cover;
   background-position: center;
   min-height: 100vh;
   display: flex;

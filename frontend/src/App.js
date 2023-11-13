@@ -4,7 +4,7 @@ import './App.css';
 import image1 from './image1.png'
 
 function App() {
-  const [cityName, setCityName] = useState('Rome');
+  const [cityName, setCityName] = useState('puducherry');
   const [inputText, setInputText] = useState('');
   const [data, setData] = useState({});
   const [error, setError] = useState(false);
